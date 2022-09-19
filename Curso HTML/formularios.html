@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Formularios</title>
+    <meta charset="utf-8">
+    </head>
+    <body>
+       <form action="" method="">
+           <input type="text" placeholder="Nombre:" maxlength="10" required name="nombre">
+           <br/>
+           <input type="text" placeholder="Campo deshabilitado" maxlength="10" disabled>
+           <br/>
+           <input type="email" placeholder="Correo:" name="correo">
+           <br/>
+           <textarea name="mensaje" id="mensaje" placeholder="mensaje"></textarea>
+           <br/>
+           <label for="pais">Pais:</label>
+           <select name="pais" id="pais">
+            <option value="mexico">Mexico</option>
+            <option value="usa">USA</option>
+            <option value="españa">España</option>
+           </select>
+
+           <input type="radio" name="Genero" value="Hombre" id="hombre"><label for="hombre">Hombre</label>
+           <input type="radio" name="Genero" value="Mujer" id="mujer"><label for="mujer">Mujer</label>
+           <br/>
+          <input type="checkbox" name="terminos" id="terminos"> Terminos y condiciones
+           <input type="submit" value="Enviar">
+       </form>
+    </body>
+</html>
