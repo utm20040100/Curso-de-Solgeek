@@ -1,0 +1,21 @@
+a {
+    font-size: 20px;
+    text-decoration: none;
+}
+a:hover {
+    background:#f9a03f; 
+    color:white;
+}
+
+a:link {
+   text-decoration: none;
+}
+
+a:visited {
+    color:#6e4a24;
+}
+
+a:active{
+    text-decoration: underline;
+    color:green;
+}

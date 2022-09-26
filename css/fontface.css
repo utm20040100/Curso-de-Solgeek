@@ -1,0 +1,22 @@
+@font-face {
+    font-family:"Commissioner-Bold";
+    src:url('fonts/Commissioner-Bold.ttf');
+}
+@font-face {
+    font-family:"Commissioner-Black";
+    src:url('fonts/Commissioner-Black.ttf');
+}
+@font-face {
+    font-family:"Commissioner-Light";
+    src:url('fonts/Commissioner-Light.ttf');
+}
+@font-face {
+    font-family:"Commissioner-Thin";
+    src:url('fonts/Commissioner-Thin.ttf');
+}
+body{
+    font-family: 'Rokkitt', serif;
+}
+h1{
+    font-weight: normal;
+}

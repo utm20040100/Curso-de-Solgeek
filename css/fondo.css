@@ -1,0 +1,16 @@
+/*body {
+   background:black;
+   background: url('img/54336.png');
+   background-repeat:no-repeat;
+   background-size:cover;
+   background-attachment: fixed;
+   background-position:center center;
+}*/
+.fondo{
+    width: 600px;
+    height: 600px;
+    background:url('img/54336.png') #000;
+    background-repeat: no-repeat;
+    background-size:50%;
+    
+}
