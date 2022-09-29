@@ -1,0 +1,10 @@
+$colorprimario:#b915da;
+.articulo{
+    .titulo{
+        color: $colorprimario;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    p{
+        color: $colorprimario;
+    }
+}
